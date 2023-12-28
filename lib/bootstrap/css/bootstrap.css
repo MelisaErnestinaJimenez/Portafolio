@@ -590,10 +590,16 @@ pre code {
 .row {
   display: -ms-flexbox;
   display: flex;
+width: 100%;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.contact-mf {
+  display: flex;
+  justify-content: center !important;
 }
 
 .no-gutters {
